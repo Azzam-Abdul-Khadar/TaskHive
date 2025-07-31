@@ -1,0 +1,21 @@
+.customHeader {
+  height: 8vh;
+  background-color: blanchedalmond;
+}
+
+.customBody {
+  height: 84vh;
+  display: flex;
+}
+
+.customFooter {
+  height: 8vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.ant-menu) {
+  height: 84vh;
+}
