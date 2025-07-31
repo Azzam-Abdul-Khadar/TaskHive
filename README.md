@@ -1,5 +1,6 @@
 **TaskHive**
 A full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js) to provide a seamless and intuitive platform for managing tasks and boosting productivity.
+
 **Features**
 User Authentication: Secure login and registration using JWT and bcrypt for password hashing.
 Task Management: Create, update, and delete tasks with deadlines and priority levels.
