@@ -73,7 +73,8 @@ const MainLayout = () => {
         <Outlet />
       </div>
       <div className={`${styles?.customFooter}`}>
-        © 2025 Copyright by Azzam-Abdul-Khadar. All rights reserved.
+        {/* © 2025 Copyright by Azzam-Abdul-Khadar. All rights reserved. */}
+         © 2025 Azzam-Abdul-Khadar. All rights reserved.
       </div>
     </div>
   );
