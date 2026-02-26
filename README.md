@@ -155,37 +155,47 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/Azzam-Abdul-Khadar/TaskHive.git
 cd TaskHive
+```
 
-## Install Dependencies
+### 2️⃣ Install Dependencies
 
-## Backend
+**Backend:**
+```bash
 cd backend
 npm install
+```
 
-## Frontend
-cd client
+**Frontend:**
+```bash
+cd ../client
 npm install
+```
 
-## Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 
-Create a .env file in the backend folder and add:
+Create a `.env` file in the `backend` folder and add:
 
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-
-## Start the App
-
-Backend:
-npm run backend:dev (cd backend && nodemon index.js)
-
-Frontend:
-npm run frontend:dev (cd client && npm run dev)
-
-After running both servers, open: http://localhost:5173
-to view the app in your browser.
-
 ```
+
+### 4️⃣ Start the App
+
+**Backend:**
+```bash
+npm run backend:dev
+# or: cd backend && nodemon index.js
+```
+
+**Frontend:**
+```bash
+npm run frontend:dev
+# or: cd client && npm run dev
+```
+
+After running both servers, open `http://localhost:5173` to view the app in your browser.
 
 ---
 
@@ -193,13 +203,13 @@ to view the app in your browser.
 
 While building TaskHive, I gained hands-on experience with:
 
-✨ React component structure and state management
-✨ Building REST APIs using Node.js and Express
-✨ Connecting backend with MongoDB using Mongoose
-✨ Implementing JWT authentication and secure login flows
-✨ Using Tailwind CSS for responsive design
-✨ Managing async API requests with Axios
-✨ Project structure and folder organization
+- ✨ React component structure and state management
+- ✨ Building REST APIs using Node.js and Express
+- ✨ Connecting backend with MongoDB using Mongoose
+- ✨ Implementing JWT authentication and secure login flows
+- ✨ Using Tailwind CSS for responsive design
+- ✨ Managing async API requests with Axios
+- ✨ Project structure and folder organization
 
 ---
 
@@ -217,15 +227,13 @@ While building TaskHive, I gained hands-on experience with:
 
 Contributions are welcome!
 
-Fork the repo
-
-Create a new branch
-
-git checkout -b feature/YourFeature
-
-Commit your changes
-
-Push and open a PR
+1. Fork the repo
+2. Create a new branch
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes
+4. Push and open a PR
 
 ---
 
