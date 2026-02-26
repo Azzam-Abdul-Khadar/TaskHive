@@ -72,13 +72,13 @@ MongoDB Database
 ## 📸 UI Pics
 
 ### 📝 Notes Screen
-![Notes Page](./screenshots/notes-page.png)
+![Notes Screen](./screenshots/notes-screen.png)
 
 ### 📅 Events Calendar Screen
-![Events Page](./screenshots/events-page.png)
+![Events Screen](./screenshots/events-screen.png)
 
 ### 📋 Enquiry Management Screen
-![Enquiry Page](./screenshots/enquiry-page.png)
+![Enquiry Screen](./screenshots/tasks-screen.png)
 
 ---
 
